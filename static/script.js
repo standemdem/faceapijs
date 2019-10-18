@@ -32,7 +32,7 @@ video.addEventListener('play', () => {
     const resizedDetections = faceapi.resizeResults(detections, displaySize)
     filteredDetections = resizedDetections.map(detection => detection.expressions)
     result = {
-      'time':`${minutes}:${seconds}`,
+      'time':hours + ':' + minutes + ':' + seconds ,
       'preds': filteredDetections
     }
 

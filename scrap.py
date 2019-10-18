@@ -17,4 +17,4 @@ while True:
                     """ 	
     result = driver.execute_script(scriptArray)
     print(result)
-    time.sleep(15)
+    time.sleep(1200)
